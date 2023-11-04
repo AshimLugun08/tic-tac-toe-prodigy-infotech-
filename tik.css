@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+
+}
+html,body{
+    height: 100%;
+    width:100%;
+    background-color: burlywood;
+}
+nav{
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color:black;
+    height:75px;
+    font-size: 27px;
+    display: flex;
+    align-items:center;
+    padding: 0  12px1;
+    font-family: monument;
+}
+nav ul{
+    list-style-type: none;
+}
+#game{
+    padding-top:500px;
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+    #box:hover{
+     background-color: blueviolet;
+    }
+#container{
+    display:grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns:repeat(3,10vw);
+
+}
+.box{
+    border: 2px solid black;
+    font-size:8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.br-0{
+    border-right:0;
+}
+.bl-0{
+    border-left:0;
+}
+.bt-0{
+    border-top:0;
+}
+.bb-0{
+    border-bottom:0;
+}
+#reset{
+    
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+.space{
+    padding-left: 5em;
+}
+
+
